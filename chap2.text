@@ -1,0 +1,69 @@
+heuy whats app how r u
+
+
+
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD
+$ cd 'b:/Udemy_WD/gitNew'
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (master)
+$ git init
+Reinitialized existing Git repository in B:/Udemy_WD/gitNew/.git/
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (master)
+$ git log
+commit 8daa3434371d15864543e79defbb00d421a2fd8c (HEAD -> master, origin/main)
+Author: Yash Sharma <sharmayash8810@gmail.com>     
+Date:   Fri Jul 5 15:41:46 2024 +0530
+
+    chap4.text
+
+commit df302e13ce32e2064bdc94f880749ad2ebd8a8b9    
+Author: Yash Sharma <sharmayash8810@gmail.com>     
+Date:   Fri Jul 5 15:00:36 2024 +0530
+
+    chap2.text
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (master)
+$ git branch alien-plot
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (master)
+$ git branch
+  alien-plot
+* master
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (master)
+$ git checkout alien-plot
+Switched to branch 'alien-plot'
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (alien-plot)
+$ git add .
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (alien-plot)
+$ git commit -m "modify chap2, 3and 4 to have alien
+ theme"
+On branch alien-plot
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chap2.text
+        modified:   chap3.text
+        modified:   chap4.text
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (alien-plot)
+$ git log
+commit 8daa3434371d15864543e79defbb00d421a2fd8c (HEAD -> alien-plot, origin/main, master)
+Author: Yash Sharma <sharmayash8810@gmail.com>     
+Date:   Fri Jul 5 15:41:46 2024 +0530
+
+    chap4.text
+
+commit df302e13ce32e2064bdc94f880749ad2ebd8a8b9    
+Author: Yash Sharma <sharmayash8810@gmail.com>     
+Date:   Fri Jul 5 15:00:36 2024 +0530
+
+    chap2.text
+
+hp@LAPTOP-7BL10ULP MINGW64 /b/Udemy_WD/gitNew (alien-plot)
